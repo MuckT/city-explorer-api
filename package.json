@@ -1,0 +1,15 @@
+{
+  "name": "city-explorer-api",
+  "version": "1.0.0",
+  "description": "A server for the city explorer app",
+  "main": "index.js",
+  "repository": "https://github.com/MuckT/city-explorer-api.git",
+  "author": "MuckT <mcgtom10@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
