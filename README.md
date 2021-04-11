@@ -40,3 +40,15 @@ A server for the city explorer web app will connect to multiple API's to make re
 ## Request Diagram
 
 ![Server Request Diagram](city-explorer-diagram.PNG)
+
+## Tasks to Complete
+
+### Task 1 - Set up your server repository
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 11:00pm
+
+Finish time: 11:30pm
+
+Actual time needed to complete: 30 minutes
