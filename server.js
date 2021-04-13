@@ -17,8 +17,18 @@ app.get('/', (request, resposne) => {
 })
 
 app.get('/weather', (request, response) => {
-  response.json(weatherData);
+  let lat = request.query.lat || '';
+  let lon = request.query.lon || '';
+  let parsed = [];
+  weatherData.data.forEach(item => parsed.push(new ForeCast(item.weather.description, item.valid_date)));
+  response.json(parsed);
 });
 
 // Listen on Port
 app.listen(PORT, () => console.log(`Server is listening on port ${PORT}`));
+
+// Forecast Constructor
+function ForeCast(description, date) {
+  this.description = description;
+  this.date = date;
+}
