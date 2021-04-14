@@ -37,6 +37,8 @@ A server for the city explorer web app will connect to multiple API's to make re
 
 [ALOYSIOUS](https://github.com/AL0YSI0US)
 
+[Express Errors](https://expressjs.com/en/guide/error-handling.html)
+
 ## Request Diagram
 
 ![Server Request Diagram](city-explorer-diagram.PNG)
@@ -50,5 +52,25 @@ Estimate of time needed to complete: 1 hour
 Start time: 11:00pm
 
 Finish time: 11:30pm
+
+Actual time needed to complete: 30 minutes
+
+### Task 2 - Weather (placeholder)
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 9:00pm
+
+Finish time: 9:30pm
+
+Actual time needed to complete: 30 minutes
+
+### Task 3 - Errors
+
+Estimate of time needed to complete: 30 minutes
+
+Start time: 9:30pm
+
+Finish time: 10pm
 
 Actual time needed to complete: 30 minutes

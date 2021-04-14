@@ -12,16 +12,19 @@ app.use(cors());
 
 const PORT = process.env.PORT || 3001;
 
-app.get('/', (request, resposne) => {
-  response.send('Hello World!');
-})
-
 app.get('/weather', (request, response) => {
-  let lat = request.query.lat || '';
-  let lon = request.query.lon || '';
-  let parsed = [];
-  weatherData.data.forEach(item => parsed.push(new ForeCast(item.weather.description, item.valid_date)));
-  response.json(parsed);
+  try {
+    let lat = request.query.lat || '';
+    let lon = request.query.lon || '';
+    let parsed = [];
+    weatherData.data.forEach(item => parsed.push(new ForeCast(item.weather.description, item.valid_date)));
+    response.json(parsed);
+  } catch(err) {
+    response.status(500).json({
+      status: 'fail',
+      message: err.toString(),
+    });
+  }
 });
 
 // Listen on Port
@@ -31,4 +34,4 @@ app.listen(PORT, () => console.log(`Server is listening on port ${PORT}`));
 function ForeCast(description, date) {
   this.description = description;
   this.date = date;
-}
+};
