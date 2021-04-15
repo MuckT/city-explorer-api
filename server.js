@@ -12,6 +12,10 @@ app.use(cors());
 
 const PORT = process.env.PORT || 3001;
 
+app.get('/', (request, response) => {
+  response.send('Hello World!');
+});
+
 app.get('/weather', (request, response) => {
   try {
     let lat = request.query.lat || '';
