@@ -49,13 +49,11 @@ A server for the city explorer web app will connect to multiple API's to make re
 
 ### Task 1 - Set up your server repository
 
-Estimate of time needed to complete: 1 hour
+Estimate of time needed to complete: 1 hours
 
-Start time: 11:00pm
+Multi-day effort
 
-Finish time: 11:30pm
-
-Actual time needed to complete: 30 minutes
+Actual time needed to complete: 3 hours
 
 ### Task 2 - Weather (placeholder)
 
@@ -73,6 +71,6 @@ Estimate of time needed to complete: 30 minutes
 
 Start time: 9:30pm
 
-Finish time: 10pm
+Finish time: 10:30pm
 
-Actual time needed to complete: 30 minutes
+Actual time needed to complete: 1 hour
