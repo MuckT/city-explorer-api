@@ -17,8 +17,8 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains two jobs "test"
-  api-tests:
+  # This workflow contains one job "test"
+  test:
     # The type of runner that the job will run on
     runs-on: ubuntu-16.04
 
