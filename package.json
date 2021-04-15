@@ -1,0 +1,23 @@
+{
+  "name": "city-explorer-api",
+  "version": "1.0.0",
+  "description": "A server for the city explorer app",
+  "main": "index.js",
+  "repository": "https://github.com/MuckT/city-explorer-api.git",
+  "author": "MuckT <mcgtom10@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test:open": "./node_modules/.bin/cypress open",
+    "test:run": "./node_modules/.bin/cypress run --headless --browser=chrome"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "cypress": "7.1.0",
+    "eslint-plugin-cypress": "^2.11.2"
+  }
+}
