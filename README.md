@@ -39,6 +39,8 @@ A server for the city explorer web app will connect to multiple API's to make re
 
 [Express Errors](https://expressjs.com/en/guide/error-handling.html)
 
+[Cypress API Testing GitHub Actions](https://github.com/cypress-io/cypress/issues/1872#issuecomment-450807452)
+
 ## Request Diagram
 
 ![Server Request Diagram](city-explorer-diagram.PNG)
