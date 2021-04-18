@@ -21,6 +21,12 @@ A server for the city explorer web app will connect to multiple API's to make re
   yarn start
   ```
 
+3. Run API tests
+
+```bash
+  yarn test:open
+```
+
 ## Architecture
 
 * [Yarn - Package Manager](https://yarnpkg.com/)
@@ -37,9 +43,13 @@ A server for the city explorer web app will connect to multiple API's to make re
 
 [ALOYSIOUS](https://github.com/AL0YSI0US)
 
+[Wenhao Piao](https://github.com/wpiao)
+
 [Express Errors](https://expressjs.com/en/guide/error-handling.html)
 
 [Cypress API Testing GitHub Actions](https://github.com/cypress-io/cypress/issues/1872#issuecomment-450807452)
+
+[React Carousel](https://react-bootstrap.github.io/components/carousel/)
 
 ## Request Diagram
 
