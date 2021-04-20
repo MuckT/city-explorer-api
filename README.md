@@ -15,13 +15,20 @@ A server for the city explorer web app will connect to multiple API's to make re
   yarn
   ```
 
-2. Run the server
+2. Get an API key to [The Movie Database (TMDb)](https://www.themoviedb.org/) and [Weatherbit.io](https://www.weatherbit.io/) and set to the following variables in your `.env` file
+
+```env
+WEATHER_API_KEY=<Weather.io API Key>
+MOVIE_API_KEY=<The Movie Database (TMDb) API Key>
+```
+
+3. Run the server
 
   ```bash
   yarn start
   ```
 
-3. Run API tests
+4. (Optional) Run API tests
 
 ```bash
   yarn test:open

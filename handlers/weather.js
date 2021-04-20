@@ -9,7 +9,6 @@ const getWeather = async(req, res, next) => {
       key: process.env.WEATHER_API_KEY
     };
     let weatherResponse = await superagent.get(url).query(query)
-    console.log(weatherResponse)
     let weather = weatherResponse.body.data.map(dailyWeather => new Forecast(dailyWeather));
     res.json(weather);
   } catch(err) {
